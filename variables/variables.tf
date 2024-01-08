@@ -1,3 +1,8 @@
+#1.command line
+#2.-var-file
+#3.terraform.tf vars
+#4.environment variables
+
 variable "iam_id" {
     type = string
     default = "ami-03265a0778a880afb"
