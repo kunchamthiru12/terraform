@@ -1,6 +1,6 @@
-variable "is prod" {
+variable "isProd" {
     type = bool
-    default = false
+    default = true
   
 }
 
