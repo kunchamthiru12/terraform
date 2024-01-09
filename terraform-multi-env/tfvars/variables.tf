@@ -21,10 +21,10 @@ variable "ami_id"{
     default = "ami-03265a0778a880afb"
 }
 
-#variable "zone_id" {
-#    default = "Z0624494PGO3LZXLQ93U"
-#}
+variable "zone_id" {
+   default = "Z07265873KUNR43ZP0FFB"
+}
 
-# variable "domain_name"{
-#     default = "kunchamthirumala.online"
-# }
+variable "domain_name"{
+    default = "kunchamthirumala.online"
+}

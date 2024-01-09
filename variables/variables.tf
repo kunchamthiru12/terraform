@@ -14,7 +14,7 @@ variable "instance_type" {
 }
 variable "tags"{
     type = map
-    default ={
+    default = {
         Name = "terraform"
         project = "Roboshop"
         Environment = "DEV"
@@ -34,8 +34,8 @@ variable "sg-description" {
 }
 
 variable "inbound-from-port"{
-    type =number
-    default =0
+    type = number
+    default = 0
     
 }
 
